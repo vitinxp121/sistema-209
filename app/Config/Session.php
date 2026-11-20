@@ -8,6 +8,8 @@ use CodeIgniter\Session\Handlers\FileHandler;
 
 class Session extends BaseConfig
 {
+
+
     /**
      * --------------------------------------------------------------------------
      * Session Driver
@@ -125,4 +127,6 @@ class Session extends BaseConfig
      * seconds.
      */
     public int $lockMaxRetries = 300;
+
+   
 }
